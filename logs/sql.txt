@@ -1,0 +1,14 @@
+SELECT
+    op_date,    
+    norm_date,
+    op_summ,
+    cat_id,
+    op_vid,    
+    pers_id
+   FROM
+    op
+   WHERE
+    status = 1 and user_id = 1 and (op_vid = 1 or op_vid = 2) and 
+   (cat_id = 111 or cat_id = 112 or cat_id = 113 or cat_id = 114) and pers_id = 6
+   ORDER BY op_vid, op_date
+

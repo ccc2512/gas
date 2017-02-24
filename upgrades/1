@@ -1,0 +1,125 @@
+reset   SYSTEM\CurrentControlSet\Services\Dhcp\Parameters\Options\15\RegLocation
+            old REG_MULTI_SZ =
+                SYSTEM\CurrentControlSet\Services\Tcpip\Parameters\Interfaces\?\DhcpDomain
+                SYSTEM\CurrentControlSet\Services\TcpIp\Parameters\DhcpDomain
+
+reset   SYSTEM\CurrentControlSet\Services\Netbt\Parameters\Interfaces\Tcpip_{0C051A1D-24EE-4567-A57C-5A1FAB2B41FD}\NameServerList
+            old REG_MULTI_SZ =
+                <empty>
+
+added   SYSTEM\CurrentControlSet\Services\Netbt\Parameters\Interfaces\Tcpip_{0C051A1D-24EE-4567-A57C-5A1FAB2B41FD}\NetbiosOptions
+added   SYSTEM\CurrentControlSet\Services\Netbt\Parameters\Interfaces\Tcpip_{3C6996B3-952A-498D-9355-34CBC72772DA}\NetbiosOptions
+added   SYSTEM\CurrentControlSet\Services\Netbt\Parameters\Interfaces\Tcpip_{4BA46689-06D6-4966-9F33-790B4E125247}\NetbiosOptions
+reset   SYSTEM\CurrentControlSet\Services\Netbt\Parameters\Interfaces\Tcpip_{9F747C71-A610-4873-83B2-38AD6B36418C}\NameServerList
+            old REG_MULTI_SZ =
+                <empty>
+
+added   SYSTEM\CurrentControlSet\Services\Netbt\Parameters\Interfaces\Tcpip_{9F747C71-A610-4873-83B2-38AD6B36418C}\NetbiosOptions
+deleted SYSTEM\CurrentControlSet\Services\Netbt\Parameters\EnableLmhosts
+deleted SYSTEM\CurrentControlSet\Services\Tcpip\Parameters\Interfaces\{0C051A1D-24EE-4567-A57C-5A1FAB2B41FD}\NameServer
+added   SYSTEM\CurrentControlSet\Services\Tcpip\Parameters\Interfaces\{29F29B76-0D70-4F36-AF8C-340AF19EE08D}\AddressType
+added   SYSTEM\CurrentControlSet\Services\Tcpip\Parameters\Interfaces\{29F29B76-0D70-4F36-AF8C-340AF19EE08D}\DisableDynamicUpdate
+reset   SYSTEM\CurrentControlSet\Services\Tcpip\Parameters\Interfaces\{29F29B76-0D70-4F36-AF8C-340AF19EE08D}\RawIpAllowedProtocols
+            old REG_MULTI_SZ =
+                0
+
+reset   SYSTEM\CurrentControlSet\Services\Tcpip\Parameters\Interfaces\{29F29B76-0D70-4F36-AF8C-340AF19EE08D}\TcpAllowedPorts
+            old REG_MULTI_SZ =
+                0
+
+reset   SYSTEM\CurrentControlSet\Services\Tcpip\Parameters\Interfaces\{29F29B76-0D70-4F36-AF8C-340AF19EE08D}\UdpAllowedPorts
+            old REG_MULTI_SZ =
+                0
+
+reset   SYSTEM\CurrentControlSet\Services\Tcpip\Parameters\Interfaces\{3EE16240-A155-4948-9153-88274A332223}\AddressType
+            old REG_DWORD = 1
+
+added   SYSTEM\CurrentControlSet\Services\Tcpip\Parameters\Interfaces\{3EE16240-A155-4948-9153-88274A332223}\DisableDynamicUpdate
+deleted SYSTEM\CurrentControlSet\Services\Tcpip\Parameters\Interfaces\{3EE16240-A155-4948-9153-88274A332223}\IpAutoconfigurationAddress
+deleted SYSTEM\CurrentControlSet\Services\Tcpip\Parameters\Interfaces\{3EE16240-A155-4948-9153-88274A332223}\IpAutoconfigurationMask
+deleted SYSTEM\CurrentControlSet\Services\Tcpip\Parameters\Interfaces\{3EE16240-A155-4948-9153-88274A332223}\IpAutoconfigurationSeed
+reset   SYSTEM\CurrentControlSet\Services\Tcpip\Parameters\Interfaces\{3EE16240-A155-4948-9153-88274A332223}\RawIpAllowedProtocols
+            old REG_MULTI_SZ =
+                0
+
+reset   SYSTEM\CurrentControlSet\Services\Tcpip\Parameters\Interfaces\{3EE16240-A155-4948-9153-88274A332223}\TcpAllowedPorts
+            old REG_MULTI_SZ =
+                0
+
+reset   SYSTEM\CurrentControlSet\Services\Tcpip\Parameters\Interfaces\{3EE16240-A155-4948-9153-88274A332223}\UdpAllowedPorts
+            old REG_MULTI_SZ =
+                0
+
+added   SYSTEM\CurrentControlSet\Services\Tcpip\Parameters\Interfaces\{72A1ADB8-DF45-4B0A-A8E3-ACE41EFC826B}\DisableDynamicUpdate
+deleted SYSTEM\CurrentControlSet\Services\Tcpip\Parameters\Interfaces\{72A1ADB8-DF45-4B0A-A8E3-ACE41EFC826B}\IpAutoconfigurationAddress
+deleted SYSTEM\CurrentControlSet\Services\Tcpip\Parameters\Interfaces\{72A1ADB8-DF45-4B0A-A8E3-ACE41EFC826B}\IpAutoconfigurationMask
+deleted SYSTEM\CurrentControlSet\Services\Tcpip\Parameters\Interfaces\{72A1ADB8-DF45-4B0A-A8E3-ACE41EFC826B}\IpAutoconfigurationSeed
+reset   SYSTEM\CurrentControlSet\Services\Tcpip\Parameters\Interfaces\{72A1ADB8-DF45-4B0A-A8E3-ACE41EFC826B}\RawIpAllowedProtocols
+            old REG_MULTI_SZ =
+                0
+
+reset   SYSTEM\CurrentControlSet\Services\Tcpip\Parameters\Interfaces\{72A1ADB8-DF45-4B0A-A8E3-ACE41EFC826B}\TcpAllowedPorts
+            old REG_MULTI_SZ =
+                0
+
+reset   SYSTEM\CurrentControlSet\Services\Tcpip\Parameters\Interfaces\{72A1ADB8-DF45-4B0A-A8E3-ACE41EFC826B}\UdpAllowedPorts
+            old REG_MULTI_SZ =
+                0
+
+deleted SYSTEM\CurrentControlSet\Services\Tcpip\Parameters\Interfaces\{9F747C71-A610-4873-83B2-38AD6B36418C}\NameServer
+added   SYSTEM\CurrentControlSet\Services\Tcpip\Parameters\Interfaces\{A715BDEA-24AF-44F2-A176-D53EF49B3F21}\AddressType
+added   SYSTEM\CurrentControlSet\Services\Tcpip\Parameters\Interfaces\{A715BDEA-24AF-44F2-A176-D53EF49B3F21}\DisableDynamicUpdate
+reset   SYSTEM\CurrentControlSet\Services\Tcpip\Parameters\Interfaces\{A715BDEA-24AF-44F2-A176-D53EF49B3F21}\RawIpAllowedProtocols
+            old REG_MULTI_SZ =
+                0
+
+reset   SYSTEM\CurrentControlSet\Services\Tcpip\Parameters\Interfaces\{A715BDEA-24AF-44F2-A176-D53EF49B3F21}\TcpAllowedPorts
+            old REG_MULTI_SZ =
+                0
+
+reset   SYSTEM\CurrentControlSet\Services\Tcpip\Parameters\Interfaces\{A715BDEA-24AF-44F2-A176-D53EF49B3F21}\UdpAllowedPorts
+            old REG_MULTI_SZ =
+                0
+
+added   SYSTEM\CurrentControlSet\Services\Tcpip\Parameters\Interfaces\{F806C68C-597B-45D9-949B-D811FD591CFA}\AddressType
+added   SYSTEM\CurrentControlSet\Services\Tcpip\Parameters\Interfaces\{F806C68C-597B-45D9-949B-D811FD591CFA}\DisableDynamicUpdate
+reset   SYSTEM\CurrentControlSet\Services\Tcpip\Parameters\Interfaces\{F806C68C-597B-45D9-949B-D811FD591CFA}\RawIpAllowedProtocols
+            old REG_MULTI_SZ =
+                0
+
+reset   SYSTEM\CurrentControlSet\Services\Tcpip\Parameters\Interfaces\{F806C68C-597B-45D9-949B-D811FD591CFA}\TcpAllowedPorts
+            old REG_MULTI_SZ =
+                0
+
+reset   SYSTEM\CurrentControlSet\Services\Tcpip\Parameters\Interfaces\{F806C68C-597B-45D9-949B-D811FD591CFA}\UdpAllowedPorts
+            old REG_MULTI_SZ =
+                0
+
+deleted SYSTEM\CurrentControlSet\Services\Tcpip\Parameters\DontAddDefaultGatewayDefault
+deleted SYSTEM\CurrentControlSet\Services\Tcpip\Parameters\EnableIcmpRedirect
+deleted SYSTEM\CurrentControlSet\Services\Tcpip\Parameters\EnableSecurityFilters
+deleted SYSTEM\CurrentControlSet\Services\Tcpip\Parameters\SearchList
+deleted SYSTEM\CurrentControlSet\Services\Tcpip\Parameters\TcpWindowSize
+deleted SYSTEM\CurrentControlSet\Services\Tcpip\Parameters\UseDomainNameDevolution
+reset   Linkage\UpperBind for ROOT\NET\0000.  bad value was:
+            REG_MULTI_SZ =
+                Epfwndis
+
+reset   Linkage\UpperBind for USB\VID_3340&PID_A0A1\1.  bad value was:
+            REG_MULTI_SZ =
+                Epfwndis
+
+reset   Linkage\UpperBind for USB\VID_3340&PID_A0A1\0E0B0506-1124-D101-2800-00022AC1FC92.  bad value was:
+            REG_MULTI_SZ =
+                Epfwndis
+
+reset   Linkage\UpperBind for ROOT\MS_NDISWANIP\0000.  bad value was:
+            REG_MULTI_SZ =
+                Epfwndis
+
+reset   Linkage\UpperBind for PCI\VEN_1039&DEV_0900&SUBSYS_18141019&REV_91\3&61AAA01&0&20.  bad value was:
+            REG_MULTI_SZ =
+                Epfwndis
+
+<completed>
+
