@@ -19,6 +19,7 @@
  <tr>
   <td>&nbsp;&nbsp;&nbsp;</td><td valign=top align=left>
    <a href='gas.php'    class='menu_item_gas'>Бензин</a>
+   <a href='m_gas.php'    class='menu_item_gas'>Бензин (моб)</a>
    <a href='my_buh.php'  class='menu_item_buh'>Моя бухгалтерия</a>
    <a href='my_cred.php'  class='menu_item_cred'>Мои кредиты</a>
    </td><td>&nbsp;&nbsp;&nbsp;</td>
